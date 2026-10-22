@@ -1,0 +1,29 @@
+{
+  "total_customers": 25430,
+  "high_risk_customers": 1447,
+  "predicted_churn_pct": 12.3,
+  "customer_segments": 4,
+  "segment_counts": {
+    "Regular": 10001,
+    "At-Risk": 5913,
+    "Low-Engagement": 5523,
+    "High-Value": 3993
+  },
+  "calibration": {
+    "best_model": "Logistic Regression",
+    "roc_auc_test": 0.8727212334145936,
+    "brier_score_test": 0.08540034423999775,
+    "mean_predicted_prob_test": 0.15235299447937686,
+    "actual_churn_rate_test": 0.14726700747149035,
+    "decision_threshold": 0.39087077614524013,
+    "f1_at_threshold": 0.5776223776223777
+  },
+  "segmentation": {
+    "silhouette_k": 0.25076846093034133,
+    "hierarchical_vs_kmeans_ARI": 0.7296221387638221,
+    "pca_explained_variance": [
+      0.5678873142222693,
+      0.13848219101473683
+    ]
+  }
+}
